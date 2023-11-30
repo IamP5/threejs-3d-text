@@ -1,7 +1,7 @@
 export default {
     root: 'src/',
     publicDir: '../static/',
-    base: './',
+    base: '/threejs-3d-text/',
     server:
     {
         host: true, // Open to local network and display URL
