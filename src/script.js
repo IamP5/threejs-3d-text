@@ -17,7 +17,7 @@ let isAnimating = true;
 
 const fontLoader = new FontLoader()
 fontLoader.load(
-    '/fonts/helvetiker_regular.typeface.json',
+    'fonts/helvetiker_regular.typeface.json',
     (font) => {
         const textGeometry = new TextGeometry(
             'Sara te amo <3',
