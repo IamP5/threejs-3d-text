@@ -10,7 +10,7 @@ const canvas = document.querySelector('canvas.webgl')
 const scene = new THREE.Scene()
 
 const textureLoader = new THREE.TextureLoader()
-const matcapTexture = textureLoader.load('/textures/matcaps/8.png')
+const matcapTexture = textureLoader.load('textures/matcaps/8.png')
 matcapTexture.colorSpace = THREE.SRGBColorSpace
 
 let isAnimating = true;
